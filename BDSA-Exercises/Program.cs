@@ -1,7 +1,9 @@
-﻿public class Program
+﻿using ConsoleApp;
+
+public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        UserInput.Init();
     }
 }
